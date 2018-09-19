@@ -1,0 +1,4 @@
+#Wed Sep 19 17:26:09 EEST 2018
+base.0=/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

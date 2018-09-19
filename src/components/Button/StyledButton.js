@@ -8,4 +8,6 @@ export const StyledButton = styled.Text`
   font-size: 18px;
   padding: 15px;
   color: #fff;
+  margin-bottom: 20px;
+  margin-top: 50px;
 `;

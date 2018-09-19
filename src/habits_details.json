@@ -1,0 +1,24 @@
+{
+    "contentType": "habit",
+    "contentId": "habit-moderate-exercise",
+    "type": "weekly",
+    "category": "excercise",
+    "benefits": "Being physically active is a vital part of your overall health. Inactivity puts you at risk for heart disease, obesity and diabetes. You should be exercising regularly to help you improve your cholesterol and triglyceride levels, alleviate stress, drepression and anxiety, improve your sleep and stamina, and to help you manage your body weight. ",
+    "instructions": "How to get started:\n1. Pick one or two of your preferred exercises from the list below, or an alternative exercise of your choice. \n2. Prepare your workout clothing and equipment for your training session.\n3. Schedule a time for your workout session: Set Reminder.\n\nYour habit:\nStart a physical activity that gets your heart pumping. Build up towards your required total time of XX minutes every week, and track your completed training sessions by checking off every successful 15 minute interval.",
+    "sources": "[Physical activity guidelines: How much exercise do you need?](https://www.hsph.harvard.edu/nutritionsource/2013/11/20/physical-activity-guidelines-how-much-exercise-do-you-need/)\n[Effectiveness of altering serum cholesterol levels without drugs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1312230/)\n[Healthline: How Long Does It Take to Lower Cholesterol?](https://www.healthline.com/health/high-cholesterol/how-long-does-it-take-to-lower)\n[Physical Activity Guidelines for Americans](https://health.gov/paguidelines/guidelines/)\n[Effects of endurance exercise training on plasma HDL cholesterol levels depend on levels of triglycerides: evidence from men of the Health, Risk Factors, Exercise Training and Genetics (HERITAGE) Family Study.](https://www.ncbi.nlm.nih.gov/pubmed/11451756)\n[Physical activity and high density lipoprotein cholesterol levels: what is the relationship?](https://www.ncbi.nlm.nih.gov/pubmed/10593643)\n[Differential Effects of Aerobic Exercise, Resistance Training and Combined Exercise Modalities on Cholesterol and the Lipid Profile: Review, Synthesis and Recommendations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3906547/)\n[Exercise and circulating cortisol levels: the intensity threshold effect.](https://www.ncbi.nlm.nih.gov/pubmed/18787373)\n[Moderate-to-Vigorous Physical Activity and All-Cause Mortality: Do Bouts Matter?](https://www.ncbi.nlm.nih.gov/pubmed/29567764)\n[Exercise training improves free testosterone in lifelong sedentary aging men](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5510446/)",
+    "title": "Moderate intensity training",
+    "defaultLevelDescription": "{target} minutes every week",
+    "levels": [
+      {"target": 60 },
+      {"target": 90 },
+      {"target": 120 },
+      {"target": 150 }    
+    ],
+    "excercises": [
+      { "name": "Gym training", "image": ""},
+      { "name": "Cycling", "image": ""},
+      { "name": "Slow jogging", "image": ""},
+      { "name": "Team sports", "image": ""}
+    ],
+    "biomarkers": ["Cholesterol", "Vitamin D", "Zinc", "Magnesium"]
+}

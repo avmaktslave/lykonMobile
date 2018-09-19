@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_4de22bb3d05d710904301e4be0a759f6a230391f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_e7caa2fdeb4c75e2e7a0120fd4496f4a4bfe094c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_b538eb9ffc575865607a5ff78a1e490d1b948930.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_8197030b351261e6409ea1135ef466b46cc55f28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_ed5742e44bd1ec1abeb222682335f8036093a057.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_6103312da6325e4950d634e97a6fc6e4d5c69a4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/lykonMobileDev/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1f32d248ec690bd1fca0677ed1ce2fcc993ec0b9">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/lykonMobileDev-react-native-vector-icons-unspecified_d4acf88fbfe334d0baf12e68f16c579654d47dc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_de338a6a3ddd742eb97ddd2e3cb078ad294d7c39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_bb5f68f2530ae27782b479664cbf7c0f156872ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_f6bc4c42baca71ae5587f15c7e18f1d8a96b5a4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_e62da43da7b0ec9bed4860182017102c772ccdb8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_96cbc6e8ea3a4062bbf56d695eeb0d9908735f6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_190792598ff0c500d8ac8c6bedf36f22de3e5092.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_675a8243377725346a5887a6cb0c97ee5a399bae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_a1ef0699ac4cc9fc5d6b90b4b2c87305bf91be3a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_64701d49d9f0ef2763faf83d6a34907236f8df34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_fee0ea66bec174b7d99dfc7ffdf709f94c5d4b35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_1978be2a96ba5c6bd6712acaadd0c84de8382386.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_8cd38af698ff144b1cdaa82b8f1c14c435ae4dea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_f97ffdddb713e00168640c280cbdd187e2c8c718.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_02b6682eb00a1f1e8ffef0d8abf737e084a860fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/yojji-2/Projects/lykonMobileDev/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_3d270c3970ba6428510a1b9179c0cd4f8fd3baa8.jar" />
+    </item>
+
+</items>
