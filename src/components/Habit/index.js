@@ -8,12 +8,14 @@ import Description from '../Description';
 export default class Habit extends PureComponent {
   static propTypes = {
     biomarkers: PropTypes.instanceOf(Object).isRequired,
+    result: PropTypes.instanceOf(Array).isRequired,
   };
 
   state = {};
 
   render() {
-    const { biomarkers } = this.props;
+    const { biomarkers, result } = this.props;
+    const [title, text] = result;
     return (
       <Wrapper>
         <Icon name="expand-more" size={52} color="#fff" />
@@ -25,13 +27,8 @@ export default class Habit extends PureComponent {
             <Icon name="arrow-forward" size={18} color="#fff" />
             {biomarkers.join(', ')}
           </WhiteText>
-          <Subtitle text="Your habit" />
-          <Description
-            text="Start a physical activity that gets your heart pumping. Build up
-            towards your required total time of 60 minuntes every week, and
-            track your completed training sessions by checking off every
-            succesful 15 minute interval."
-          />
+          <Subtitle text={title} />
+          <Description text={text} />
         </Content>
       </Wrapper>
     );

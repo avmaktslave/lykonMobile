@@ -2,9 +2,9 @@ import React from 'react';
 import { string } from 'prop-types';
 import { TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { Excercise, Name, Toggle, Point } from './StyledTypeExc';
+import { Excercise, Name, Toggle } from './StyledTypeExc';
 
-const TypeExcercise = ({ name, image }) => (
+const TypeExcercise = ({ name }) => (
   <Excercise>
     <Name>{name}</Name>
     <TouchableOpacity onPress={() => null}>
@@ -17,7 +17,6 @@ const TypeExcercise = ({ name, image }) => (
 
 TypeExcercise.propTypes = {
   name: string.isRequired,
-  image: string.isRequired,
 };
 
 export default TypeExcercise;

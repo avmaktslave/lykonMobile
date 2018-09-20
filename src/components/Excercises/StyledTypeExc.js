@@ -30,8 +30,3 @@ export const Toggle = styled.View`
   justify-content: center;
   align-items: center;
 `;
-
-export const Point = styled.Text`
-  color: rgb(82, 212, 154);
-  font-size: 26px;
-`;
