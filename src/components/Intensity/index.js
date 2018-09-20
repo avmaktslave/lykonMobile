@@ -22,20 +22,22 @@ class Intensity extends PureComponent {
     const { levels } = props;
     const [id] = levels;
     this.state = {
-      color: '#fff',
+      colorbg: '#fff',
+      color: 'rgb(82, 212, 154)',
       id: id.target,
     };
   }
 
   changeColor = () => {
     const { id } = this.state;
-    this.setState({ color: 'rgb(82, 212, 154)' });
+    this.setState({ colorbg: 'rgb(82, 212, 154)' });
+    this.setState({ color: '#fff' });
     console.log(id);
   };
 
   render() {
     const { levels } = this.props;
-    const { color, id } = this.state;
+    const { colorbg, color, id } = this.state;
     return (
       <Fragment>
         <Subtitle text="Intensity" />
@@ -45,13 +47,15 @@ class Intensity extends PureComponent {
             onPress={i.target !== id ? this.changeColor : null}
           >
             <Level>
-              <Num color={color}>{i.target}</Num>
+              <Num color={color} colorbg={colorbg}>
+                {i.target}
+              </Num>
               <Block>
                 <Text>
                   <NumText>{i.target} minutes</NumText> per week
                 </Text>
                 <Line>
-                  <InLine color={color} />
+                  <InLine color={colorbg} />
                 </Line>
               </Block>
             </Level>

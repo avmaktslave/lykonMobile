@@ -9,12 +9,12 @@ export const Level = styled.View`
 `;
 
 export const Num = styled.Text`
-  color: rgb(82, 212, 154);
+  color: ${props => props.color};
   font-size: 20px;
   width: 65px;
   height: 65px;
   border-radius: 65px;
-  background-color: #fff;
+  background-color: ${props => props.colorbg};
   text-align: center;
   text-align-vertical: center;
 `;
