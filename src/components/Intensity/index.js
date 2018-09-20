@@ -19,24 +19,17 @@ class Intensity extends PureComponent {
 
   constructor(props) {
     super(props);
-    this.myRef = React.createRef();
     const { levels } = props;
     const [id] = levels;
     this.state = {
       color: '#fff',
       id: id.target,
-      levels,
     };
   }
-
-  componentDidMount = () => {
-    this.setState();
-  };
 
   changeColor = () => {
     const { id } = this.state;
     this.setState({ color: 'rgb(82, 212, 154)' });
-    console.log(this.myRef);
     console.log(id);
   };
 
@@ -48,9 +41,8 @@ class Intensity extends PureComponent {
         <Subtitle text="Intensity" />
         {levels.map(i => (
           <TouchableOpacity
-            ref={this.myRef}
             key={i.target}
-            onPress={this.changeColor}
+            onPress={i.target !== id ? this.changeColor : null}
           >
             <Level>
               <Num color={color}>{i.target}</Num>
