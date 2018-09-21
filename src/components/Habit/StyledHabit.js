@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.View`
   flex: 1;
+  height: ${props => (props.opened ? '100%' : '210px')};
   justify-content: center;
   align-items: center;
   background-color: rgb(244, 119, 89);

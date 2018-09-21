@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import { TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Wrapper, WhiteText, Header, Content, Line } from './StyledHabit';
@@ -11,14 +12,24 @@ export default class Habit extends PureComponent {
     result: PropTypes.instanceOf(Array).isRequired,
   };
 
-  state = {};
+  state = {
+    opened: true,
+  };
+
+  openHandler = () => {
+    const { opened } = this.state;
+    this.setState({ opened: !opened });
+  };
 
   render() {
     const { biomarkers, result } = this.props;
+    const { opened } = this.state;
     const [title, text] = result;
     return (
-      <Wrapper>
-        <Icon name="expand-more" size={52} color="#fff" />
+      <Wrapper opened={opened}>
+        <TouchableOpacity onPress={this.openHandler}>
+          <Icon name="expand-more" size={52} color="#fff" />
+        </TouchableOpacity>
         <Content>
           <WhiteText>Exercise</WhiteText>
           <Header>Moderate intansity training</Header>
