@@ -9,6 +9,7 @@ import {
   Text,
   Line,
   InLine,
+  Separate,
 } from './StyledIntensity';
 
 export default class LevelItem extends PureComponent {
@@ -18,8 +19,6 @@ export default class LevelItem extends PureComponent {
     onPressItem: func.isRequired,
     target: number.isRequired,
   };
-
-  state = {};
 
   _onPress = () => {
     const { onPressItem, id } = this.props;
@@ -42,6 +41,7 @@ export default class LevelItem extends PureComponent {
             </Line>
           </Block>
         </Level>
+        <Separate />
       </TouchableOpacity>
     );
   }

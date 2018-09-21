@@ -2,6 +2,7 @@ import React, { PureComponent, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import LevelItem from './LevelItem';
 import Subtitle from '../Subtitle';
+import { Separate } from './StyledIntensity';
 
 class Intensity extends PureComponent {
   static propTypes = {
@@ -12,7 +13,7 @@ class Intensity extends PureComponent {
     super(props);
     this.state = {
       levels: props.levels,
-      activeId: null,
+      activeId: 60,
     };
   }
 
@@ -25,6 +26,7 @@ class Intensity extends PureComponent {
     return (
       <Fragment>
         <Subtitle text="Intensity" />
+        <Separate />
         {levels.map(i => (
           <LevelItem
             id={i.target}

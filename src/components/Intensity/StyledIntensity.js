@@ -3,6 +3,12 @@ import styled from 'styled-components';
 const greenishTeal = 'rgb(82, 212, 154)';
 const white = '#fff';
 
+export const Separate = styled.Text`
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+`;
+
 export const Level = styled.View`
   flex-direction: row;
   justify-content: flex-start;
